@@ -1,0 +1,22 @@
+.option {
+  background-color: gray;
+  border: 1px solid darkgrey;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border-radius: 5px;
+  flex-basis: 500px;
+  /* flex:1 1 ;
+  width: 200rem; */
+}
+
+
+.container {
+  display: flex;
+  gap: 0.5rem;
+  overflow: scroll;
+  align-items: center;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
